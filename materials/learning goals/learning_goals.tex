@@ -1,0 +1,57 @@
+\documentclass{article}[12pt]
+
+\usepackage{amsmath, amssymb}
+\usepackage{eucal}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = RoyalPurple,
+    urlcolor = YellowOrange
+}
+\usepackage{twemojis}
+
+
+\title{MAT605 Logic and Foundations with Haskell}
+\author{Marius Furter}
+
+\begin{document}
+
+\setlength{\twemojiDefaultHeight}{1em}
+
+\maketitle
+
+\section{Resources}
+The video material for the course may be found either on \href{https://uzh.mediaspace.cast.switch.ch/channel/23FS%2BMAT605%2BLogic%2Band%2BFoundations%2Bwith%2BHaskell/32019}{SWITCHcast} or on \href{https://www.youtube.com/watch?v=0HImO-me_sg&list=PLd8NbPjkXPliojM8YMN3z3o9--zXwti8Z}{YouTube}. In both places the videos contain chapter headings to help you navigate the material.
+
+\section{Learning goals}
+The following is a summary of the learning goals of the course by week. Each learning goal for the theory will be marked with one of the following symbols:
+\begin{description}
+    \item[\twemoji{slightly smiling face} (essentials)] These points are essential knowledge for passing the course. If you complete all of them, you should have no trouble passing the exam.
+    \item[\twemoji{thinking face} (food for thought)] These points are more advanced and might require more work to understand. They are not required in order to get a passing grade, but some of these topics might appear on the exam.
+    \item[\twemoji{exploding head} (exploding head)] These points are completely optional. They are either difficult, tedious, or things I included for your culture. They will not appear on the exam, but they might help you understand the other material better.
+\end{description}
+
+Aside from the learning goals, I will also provide some questions for you to contemplate.
+
+\subsection*{Week 1}
+
+\paragraph{Haskell} Get Haskell installed on your computer. I recommend using \href{https://www.haskell.org/ghcup/}{GHC} together with \href{https://code.visualstudio.com}{Visual Studio Code}. In order to make the two work together, you need to let GHCup install all the stuff it asks you to, in particular you need the Haskell language server. In VSCode you will need to install the \texttt{Haskell} and \texttt{Haskell Syntax Highlighting} extensions.
+
+\paragraph{Course Intro} This video introduces the course. Watching it is optional.
+
+\paragraph{Logic 1: Introduction} This video introduces the logic portion of the course. It doesn't contain any essential material, but it sets up some ideas that will be helpful later. I would recommend watching it.
+
+\emph{Question: Think about some mathematical statements of your favorite area. What does it mean for such statements to be `true'? How would you translate this to formulas in a logical system?}
+
+\paragraph{Logic 2: Naive Propositional Logic} This video covers the basics of propositional logic in an informal manner. We will see all of this in more detail in a few weeks. You probably have already encountered all of this material in your studies, but I included it so as to not assume any prior knowledge. If you feel like you satisfy the learning goals, feel free to skip this video. If you are unclear on some points, I would recommend skimming the video using the chapter feature.
+\begin{itemize}
+    \item[\twemoji{slightly smiling face}] Understand the \emph{syntax} of propositional logic. Be able to recognize and write well-formed formulas.
+    \item[\twemoji{slightly smiling face}] Know the \emph{truth table definitions} for the usual logical connectives ($\neg$, $\wedge$, $\vee$, $\rightarrow$, $\leftrightarrow$). Be able to calculate the truth value of propositional logc formulas.
+    \item[\twemoji{slightly smiling face}] Know the definition of \emph{logical validity} and \emph{logical equivalence} for propositional formulas. Be able to demonstrate these using truth tables.
+    \item[\twemoji{slightly smiling face}] Be able to prove new logical equivalences from old ones by \emph{substitution}.
+\end{itemize}
+
+
+
+\end{document}
