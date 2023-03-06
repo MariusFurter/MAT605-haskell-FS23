@@ -1,16 +1,28 @@
--- Types
--- Numbers: Int, Integer, Float, Double
+-- Types and Typeclasses
+
+doubleMe :: Int -> Int 
+doubleMe x = x + x 
+
+doubleMe' :: Float -> Float
+doubleMe' x = x + x 
+
+addUs :: Int -> Int -> Int 
+addUs x y = x + y 
+
+-- Some basic types
+-- Number: Int, Integer, Float, Double
 -- Bool
--- String, Char
+-- Char
+-- String
+-- Lists: [..] e.g [Char]
+-- Tuples: (.., .., ..) e.g (Bool, Char)
 
--- Typeclasses: Enum, Bounded, Num, Integral, Fractional, Floating
+-- Type variables
 
+-- Typeclasses
+doubleMe'' :: Num a => a -> a
+doubleMe'' x = x + x 
 
-addTogether :: Int -> Int -> Int
-addTogether x y = x + y
-
-project :: (Integer, String) -> Integer
-project xs = fst xs
-
-project' :: Integer -> String -> Integer
-project' x y = x
+-- Eq, Ord, Enum
+-- Show, Read
+-- Num, Integral, Floating
