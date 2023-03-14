@@ -1,0 +1,70 @@
+\documentclass{article}[12pt]
+
+\usepackage{amsmath, amssymb}
+\usepackage{eucal}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = RoyalPurple,
+    urlcolor = YellowOrange
+}
+\usepackage{twemojis}
+
+\usepackage{array}
+\def\arraystretch{1.5}
+
+\title{Summary of informal proof rules}
+\author{Marius Furter}
+
+\begin{document}
+
+\section*{Summary of informal proof rules}
+
+\begin{tabular}{ c | m{14em} | m{14em} }
+    & \textbf{Introduction Rule} & \textbf{Elimination Rule} \\ 
+    \hline \hline
+    $\rightarrow$ &
+    To prove $\Phi \rightarrow \Psi$, assume $\Phi$ and prove $\Psi$. &
+    Given $\Phi$ and $\Phi \rightarrow \Psi$, conclude $\Psi$. \\
+    \hline
+    $\leftrightarrow$ &
+    To prove $\Phi \leftrightarrow \Psi$, prove both $\Phi \rightarrow \Psi$ and $\Psi \rightarrow \Phi$. &
+    Given $\Phi \leftrightarrow \Psi$ and $\Phi$, conclude $\Psi$.
+
+    Given $\Phi \leftrightarrow \Psi$ and $\Psi$, conclude $\Phi$. \\
+    \hline
+    $\neg$ &
+    To prove $\neg \Phi$, assume $\Phi$ and derive a contradiction. &
+    Given $\neg \Phi$ and $\Phi$, conclude $\Psi$. \\
+    \hline
+    $\wedge $ &
+    To prove $\Phi \wedge \Psi$, prove both $\Phi$ and $\Psi$. &
+    Given $\Phi \wedge \Psi$, conclude $\Phi$.
+    
+    Given $\Phi \wedge \Psi$, conclude $\Psi$.\\
+    \hline
+    $\vee$ &
+    To prove $\Phi \vee \Psi$, prove at least one of $\Phi$ or $\Psi$. &
+    To use $\Phi \vee \Psi$ to prove $\Gamma$, first assume $\Phi$ and prove $\Gamma$. Then separately assume $\Psi$ and again prove $\Gamma$. \\
+    \hline
+    $\forall$ &
+    To prove $\forall x \Phi(x)$, pick an arbitrary $x_0$ and prove $\Phi(x_0)$. &
+    Given $\forall x \Phi(x)$, conclude $\Phi(x_0)$ for any $x_0$ of your choice. \\
+    \hline
+    $\exists$ &
+    To prove $\exists x \Phi(x)$, specify an $x_0$ satisfying $\Phi(x_0)$. &
+    Given $\exists x \Phi(x)$, let $x_0$ be an element satisfying $\Phi(x_0)$. \\
+    \hline
+\end{tabular}
+
+\subsubsection*{Proof by contradiction}
+Use the $(\neg)$-introduction rule on $\neg \Phi$ to conclude $\neg(\neg \Phi) \equiv \Phi$.
+
+\subsubsection*{Proof by cases}
+Add the tautology $\Phi \vee \neg \Phi$ to your givens and use the $(\vee)$-elimination rule to distinguish cases.
+
+\subsubsection*{Modifying givens and proof goal}
+One can always replace the givens or the proof goal with logically equivalent statements. One may always add established true statements to the givens.
+
+\end{document}
