@@ -1,3 +1,6 @@
+module SetList
+where
+
 import Data.List ( nub )
 
 -- Datatype for Sets
