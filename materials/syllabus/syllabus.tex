@@ -1,0 +1,64 @@
+\documentclass{article}[12pt]
+
+\usepackage{amsmath, amssymb}
+\usepackage{eucal}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = RoyalPurple,
+    urlcolor = YellowOrange
+}
+
+
+\title{MAT605 Logic and Foundations with Haskell}
+\author{Marius Furter}
+
+\begin{document}
+
+\maketitle
+
+\section{Syllabus}
+The course consists of both theory and practice. In the theory parts, students learn about topics in logic and set theory, while in the practical part they learn how to implement these concepts in the functional programming language Haskell. Students are evaluated by taking a written exam and submitting a programming project.
+
+The contents of the course roughly follow \href{https://staff.fnwi.uva.nl/d.j.n.vaneijck2/HR/}{The Haskell Road to Logic, Maths and Programming} by Doets and van Eijck. Additional material is taken from chapters 2-3 of Chiswell and Hodges' \href{https://global.oup.com/academic/product/mathematical-logic-9780198571001?cc=nl&lang=en&}{Mathematical Logic} as well as Enderton's \href{https://www.elsevier.com/books/elements-of-set-theory/enderton/978-0-08-057042-6}{Elements of Set Theory}
+
+The complete course is available online on \href{https://uzh.mediaspace.cast.switch.ch/channel/23FS%2BMAT605%2BLogic%2Band%2BFoundations%2Bwith%2BHaskell/32019}{SWITCHcast}. A detailed list of learning goals can be found in the \href{https://github.com/MariusFurter/MAT605-haskell-FS23}{course git repository}.
+
+\subsection{Theory Topics}
+
+At the end of the course, students understand the following topics. Their knowledge is tested by a written exam.
+\subsubsection{Logic}
+\begin{itemize}
+    \item Naive propositional logic (Truth table definitions of logical connectives, logical equivalences)
+    \item Naive first order logic (explanation of connective and quantifiers)
+    \item Naive proof theory (introduction and elimination rules for first order logic proofs)
+    \item Natural deduction (rules for constructing derivations and sequents)
+    \item The formal language of propositional logic
+    \item Proof of soundness and completeness of natural deduction for propositional logic
+\end{itemize}
+
+\subsubsection{Set theory}
+\begin{itemize}
+    \item ZFC Axioms
+    \item Algebra of sets
+    \item Relations and Functions
+    \item Natural numbers (Peano Axioms)
+    \item Cardinals and Ordinals
+\end{itemize}
+
+\subsection{Programming Content}
+
+By the end of the course, students will know how to translate mathematical definitions into working code. Their knowledge is tested in the form of a programming project.
+\begin{itemize}
+    \item Basic operations in Haskell (arithmetic, comparison)
+    \item Defining functions in Haskell using pattern matching, guards and recursion
+    \item Types and typeclasses in Haskell (understanding the type system and defining custom types)
+    \item Implementing Sets, Relations, Functions (along with related functions)
+    \item Induction and Recursion
+    \item Implementing natural numbers
+    \item Implementing polynomials
+    \item Corecursion 
+\end{itemize}
+
+\end{document}
