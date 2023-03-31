@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1680278747 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" "learning_goals.pdf" "learning_goals" 1680278748
-  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" 1680278747 14818 b536857bee3ba964f2305b8021ca3f44 ""
+["pdflatex"] 1680279158 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" "learning_goals.pdf" "learning_goals" 1680279159
+  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" 1680279158 15544 bae7f10032f6c76f4421cf895844c6f0 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -162,9 +162,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1651648963 2826439 3c37574d18a64bc92e25c4c639db90b7 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "learning_goals.aux" 1680278748 2540 0829a8fe628889322fd9246c6497471b "pdflatex"
-  "learning_goals.out" 1680278748 754 8826e0e826d1a4edde09ce399b6a159f "pdflatex"
-  "learning_goals.tex" 1680278747 14818 b536857bee3ba964f2305b8021ca3f44 ""
+  "learning_goals.aux" 1680279159 2909 83f7a20f20284bf998a4201c21c38607 "pdflatex"
+  "learning_goals.out" 1680279159 754 8826e0e826d1a4edde09ce399b6a159f "pdflatex"
+  "learning_goals.tex" 1680279158 15544 bae7f10032f6c76f4421cf895844c6f0 ""
   (generated)
   "learning_goals.aux"
   "learning_goals.log"
