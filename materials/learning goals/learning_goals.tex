@@ -119,7 +119,7 @@ Aside from the learning goals, I will also provide some questions for you to con
 \end{itemize}
 
 \section{Example exam questions}
-The written exam will consist of two types of questions that will cover both theory and the basic syntax of Haskell. The first 2/3 of the exam will test your knowledge of the essential learning goals. These questions will no require much thought. If you get about 80\% of these correct, you will pass the exam. If you get all of them right, that would be about a $4.7$. The remaining 1/3 will consist of questions that require more thinking or come from the food for thought learning goals. To get a $6$ you need to score around 88\% of points overall. I will adjust the grading scale if it turns out to be too strict. You will also be allowed to write down reasons for your answers to the multiple choice question if you are unsure about a question so that I can assign partial points if your reasoning is partially correct.
+The written exam will consist of two types of questions that will cover both theory and the basic syntax of Haskell. The first 2/3 of the exam will test your knowledge of the essential learning goals. These questions will not require much thought. If you get about 80\% of these correct, you will pass the exam. If you get all of them right, that would be about a $4.7$. The remaining 1/3 will consist of questions that either require more thinking or come from the food for thought learning goals. To get a $6$ you need to score around 88\% of points overall. I will adjust the grading scale if it turns out to be too strict. You will also be allowed to write down reasons for your answers to the multiple choice question if you are unsure about a question so that I can assign partial points if your reasoning is partially correct.
 
 \subsection{Example essential questions}
 The learning goal: `Be able to recognize well-formed formulas of propositional logic' could translate into the exam question:
@@ -157,7 +157,7 @@ The learning goals: `Be able to translate between precise mathematical statement
 
 \emph{Which of the following first order logic formulas capture the statement: `For all $x$ in $A$ there exists $y$ in $A$ satisfying $x < y$' ?}
 \begin{itemize}
-    \item[$\square$] $ \forall x \exists y (y \in A \wedge (x \in A \rightarrow x < y)) $
+    \item[$\square$] $ \forall x \exists y ( x \in A \wedge (y \in A \wedge \phi < \psi)) $
     \item[$\square$] $ \exists y \in A \forall x \in A (x < y) $ 
     \item[$\square$] $ \forall x \in A \exists y \in A (x < y) $
     \item[$\square$] $ \forall x \exists y (x \in A \rightarrow (y \in A \wedge x < y)) $
@@ -166,7 +166,7 @@ The learning goals: `Be able to translate between precise mathematical statement
 The learning goal: `Be able to derive new logical equivalence from old ones by substitution' might translate into the following question:
 
 \emph{Consider the following logical equivalences: 
-$$\Phi \rightarrow \Psi \cong \neg \Phi \vee \Psi, \qquad
+$$\Phi \rightarrow \Psi \cong (\neg \Phi) \vee \Psi, \qquad
  \neg (\neg \Phi) \cong \Phi,  $$
  $$\neg (\Phi \vee \Psi) \cong (\neg \Phi) \wedge (\neg \Psi), \qquad \neg (\Phi \wedge \Psi) \cong (\neg \Phi) \vee (\neg \Psi).$$ 
  Use these to show that
