@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1679432665 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" "learning_goals.pdf" "learning_goals" 1679432666
-  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" 1679432665 10610 45bc8732c619a656d1aaab36ec5c7438 ""
+["pdflatex"] 1680278203 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" "learning_goals.pdf" "learning_goals" 1680278204
+  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/learning goals/learning_goals.tex" 1680278203 14806 a4760fde8a14de871ccb323fa33ac046 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -32,9 +32,11 @@
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1248133631 32762 224316ccc9ad3ca0423a14971cfa7fc1 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -160,9 +162,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1651648963 2826439 3c37574d18a64bc92e25c4c639db90b7 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "learning_goals.aux" 1679432666 2154 e2915193f73eaf89660d68450e11f24f "pdflatex"
-  "learning_goals.out" 1679432666 204 bad4f727cd0711dba51a1203c038110a "pdflatex"
-  "learning_goals.tex" 1679432665 10610 45bc8732c619a656d1aaab36ec5c7438 ""
+  "learning_goals.aux" 1680278204 2540 0829a8fe628889322fd9246c6497471b "pdflatex"
+  "learning_goals.out" 1680278204 754 8826e0e826d1a4edde09ce399b6a159f "pdflatex"
+  "learning_goals.tex" 1680278203 14806 a4760fde8a14de871ccb323fa33ac046 ""
   (generated)
   "learning_goals.aux"
   "learning_goals.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  21 MAR 2023 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  31 MAR 2023 17:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -483,17 +483,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<all-twemojis.pdf, id=17, page=2038, 27.10126pt x 27.10126pt>
+<all-twemojis.pdf, id=29, page=2038, 27.10126pt x 27.10126pt>
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2038>
 Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 30.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
-<all-twemojis.pdf, id=18, page=2377, 27.10126pt x 27.10126pt>
+<all-twemojis.pdf, id=30, page=2377, 27.10126pt x 27.10126pt>
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2377>
 Package pdftex.def Info: all-twemojis.pdf , page2377 used on input line 31.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
-<all-twemojis.pdf, id=19, page=2461, 27.10126pt x 27.10126pt>
+<all-twemojis.pdf, id=31, page=2461, 27.10126pt x 27.10126pt>
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2461>
 Package pdftex.def Info: all-twemojis.pdf , page2461 used on input line 32.
@@ -639,23 +639,23 @@ File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2461>
 Package pdftex.def Info: all-twemojis.pdf , page2461 used on input line 118.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
- [4] (./learning_goals.aux)
+ [4] [5] [6] (./learning_goals.aux)
 Package rerunfilecheck Info: File `learning_goals.out' has not changed.
-(rerunfilecheck)             Checksum: BAD4F727CD0711DBA51A1203C038110A;204.
+(rerunfilecheck)             Checksum: 8826E0E826D1A4EDDE09CE399B6A159F;754.
  ) 
 Here is how much of TeX's memory you used:
- 28510 strings out of 478268
- 603087 string characters out of 5846348
- 943035 words of memory out of 5000000
- 46358 multiletter control sequences out of 15000+600000
+ 28518 strings out of 478268
+ 603179 string characters out of 5846348
+ 943043 words of memory out of 5000000
+ 46361 multiletter control sequences out of 15000+600000
  477972 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,6n,118p,711b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on learning_goals.pdf (4 pages, 137433 bytes).
+ 115i,7n,118p,942b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on learning_goals.pdf (6 pages, 167741 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

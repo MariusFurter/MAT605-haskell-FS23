@@ -117,4 +117,65 @@ Aside from the learning goals, I will also provide some questions for you to con
     \item[\twemoji{thinking face}] Be able to \emph{write derivations} that prove simple sequents (ca.~2-4 rule applications).
     \item[\twemoji{exploding head}] Think about proof by contradiction and the law of the excluded middle. In what situations in life would you accept an answer based on `proof by contradiction'. Can you find situations where a double negation $\neg \neg \varphi$ does not seem equivalent to $\varphi$. If you would create your own mathematical world, what level of proof would you require to call statements `true'?
 \end{itemize}
+
+\section{Example exam questions}
+The written exam will consist of two types of questions that will cover both theory and the basic syntax of Haskell. The first 2/3 of the exam will test your knowledge of the essential learning goals. These questions will no require much thought. If you get about 80\% of these correct, you will pass the exam. If you get all of them right, that would be about a $4.7$. The remaining 1/3 will consist of questions that require more thinking or come from the food for thought learning goals. To get a $6$ you need to score around 88\% of points overall. I will adjust the grading scale if it turns out to be too strict. You will also be allowed to write down reasons for your answers to the multiple choice question if you are unsure about a question so that I can assign partial points if your reasoning is partially correct.
+
+\subsection{Example essential questions}
+The learning goal: `Be able to recognize well-formed formulas of propositional logic' could translate into the exam question:
+
+\emph{Which of the following formulas are well-formed formulas of propositional logic?}
+\begin{itemize}
+    \item[$\square$] $\forall x \exists y ((p_1(x) \wedge p_2(x) ) \rightarrow p_3(y))$
+    \item[$\square$] $ ((p_1 \vee p_2) \wedge p_3) $
+    \item[$\square$] $ (p_1 \rightarrow p_2 \rightarrow p_3)$
+    \item[$\square$] $ ((p_1 \neg p_2) \vee p_3 )$
+\end{itemize}
+
+The learning goals: `Know how to write basic functions' and `Know the syntax for pattern matching tuples' might translate to the question:
+
+\emph{Which of the following pieces of code define valid functions in Haskell?}
+\begin{itemize}
+    \item[$\square$] \verb|fun x y = x+y|
+    \item[$\square$] \verb|Fun x = x+x|
+    \item[$\square$] \verb|fun(x,y) = x+y|
+    \item[$\square$] \verb|fun (x,y) = x+y|
+\end{itemize}
+
+The learning goal `Know what a sequent is' might translate to the question
+
+\emph{What is the correct definition of a sequent?}
+\begin{itemize}
+    \item[$\square$] A sequent is an expression $\Gamma \vdash \varphi$. It is correct, if whenever all the assumptions in $\Gamma$ are true, then so is $\varphi$.
+    \item[] \item[$\square$]  A sequent is a type of formal proof of the form $\Gamma \vdash \varphi$ that uses only the sequent rules of natural deduction.
+    \item[$\square$] A sequent is an expression $\Gamma \vdash \varphi$. It is correct, if there exists a derivation with conclusion $\varphi$ using only assumptions occurring in $\Gamma$.
+    \item[$\square$]  A sequent is a rule of the form $\Gamma \vdash \varphi$ that may be used in natural deduction derivation to prove $\varphi$ from $\Gamma$.
+\end{itemize}
+
+\subsection{Example thinking questions}
+The learning goals: `Be able to translate between precise mathematical statements and first order logic formulas' and `Be able to translate between restricted and unrestricted quantification' might translate to the question:
+
+\emph{Which of the following first order logic formulas capture the statement: `For all $x$ in $A$ there exists $y$ in $A$ satisfying $x < y$' ?}
+\begin{itemize}
+    \item[$\square$] $ \forall x \exists y (y \in A \wedge (x \in A \rightarrow x < y)) $
+    \item[$\square$] $ \exists y \in A \forall x \in A (x < y) $ 
+    \item[$\square$] $ \forall x \in A \exists y \in A (x < y) $
+    \item[$\square$] $ \forall x \exists y (x \in A \rightarrow (y \in A \wedge x < y)) $
+\end{itemize}
+
+The learning goal: `Be able to derive new logical equivalence from old ones by substitution' might translate into the following question:
+
+\emph{Consider the following logical equivalences: 
+$$\Phi \rightarrow \Psi \cong \neg \Phi \vee \Psi, \qquad
+ \neg (\neg \Phi) \cong \Phi,  $$
+ $$\neg (\Phi \vee \Psi) \cong (\neg \Phi) \wedge (\neg \Psi), \qquad \neg (\Phi \wedge \Psi) \cong (\neg \Phi) \vee (\neg \Psi).$$ 
+ Use these to show that
+$$ (\neg (\Phi \rightarrow \Psi)) \rightarrow (\neg \Psi) \cong ((\neg \Phi) \vee \Psi) \vee (\neg \Psi) $$ 
+What does this tell you about this formula?
+}
+
+The learning goal: `Be able to write derivations that prove simple sequents' might translate to:
+
+\emph{Provide a derivation that proves $\{ \phi, \psi \} \vdash (\phi \vee \tau) \wedge \psi$}
+
 \end{document}
