@@ -1,0 +1,500 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  23 APR 2023 12:06
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex
+(/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen139
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks17
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks18
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks26
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/eucal.sty
+Package: eucal 2009/06/22 v3.00 Euler Script fonts
+LaTeX Font Info:    Overwriting math alphabet `\EuScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 33.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2020/09/30 v0.4b Improved picture commands (HjG,RN,JT)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 112.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks27
+\@arclen=\dimen148
+\@arcrad=\dimen149
+\pIIe@tempdima=\dimen150
+\pIIe@tempdimb=\dimen151
+\pIIe@tempdimc=\dimen152
+\pIIe@tempdimd=\dimen153
+\pIIe@tempdime=\dimen154
+\pIIe@tempdimf=\dimen155
+)
+\c@treecount=\count271
+\c@branchcount=\count272
+\parentbox=\box52
+\treebox=\box53
+\treeboxone=\box54
+\treeboxtwo=\box55
+\treeboxthree=\box56
+\treeboxfour=\box57
+\treeboxfive=\box58
+\treeboxsix=\box59
+\treeboxseven=\box60
+\treeboxeight=\box61
+\treeboxnine=\box62
+\treeboxten=\box63
+\treeboxeleven=\box64
+\treeboxtwelve=\box65
+\treeboxthirteen=\box66
+\treeboxfourteen=\box67
+\treeboxfifteen=\box68
+\treeboxsixteen=\box69
+\treeboxseventeen=\box70
+\treeboxeighteen=\box71
+\treeboxnineteen=\box72
+\treeboxtwenty=\box73
+\treeoffsetone=\skip55
+\treeoffsettwo=\skip56
+\treeoffsetthree=\skip57
+\treeoffsetfour=\skip58
+\treeoffsetfive=\skip59
+\treeoffsetsix=\skip60
+\treeoffsetseven=\skip61
+\treeoffseteight=\skip62
+\treeoffsetnine=\skip63
+\treeoffsetten=\skip64
+\treeoffseteleven=\skip65
+\treeoffsettwelve=\skip66
+\treeoffsetthirteen=\skip67
+\treeoffsetfourteen=\skip68
+\treeoffsetfifteen=\skip69
+\treeoffsetsixteen=\skip70
+\treeoffsetseventeen=\skip71
+\treeoffseteighteen=\skip72
+\treeoffsetnineteen=\skip73
+\treeoffsettwenty=\skip74
+\treeshiftone=\skip75
+\treeshifttwo=\skip76
+\treeshiftthree=\skip77
+\treeshiftfour=\skip78
+\treeshiftfive=\skip79
+\treeshiftsix=\skip80
+\treeshiftseven=\skip81
+\treeshifteight=\skip82
+\treeshiftnine=\skip83
+\treeshiftten=\skip84
+\treeshifteleven=\skip85
+\treeshifttwelve=\skip86
+\treeshiftthirteen=\skip87
+\treeshiftfourteen=\skip88
+\treeshiftfifteen=\skip89
+\treeshiftsixteen=\skip90
+\treeshiftseventeen=\skip91
+\treeshifteighteen=\skip92
+\treeshiftnineteen=\skip93
+\treeshifttwenty=\skip94
+\treewidthone=\skip95
+\treewidthtwo=\skip96
+\treewidththree=\skip97
+\treewidthfour=\skip98
+\treewidthfive=\skip99
+\treewidthsix=\skip100
+\treewidthseven=\skip101
+\treewidtheight=\skip102
+\treewidthnine=\skip103
+\treewidthten=\skip104
+\treewidtheleven=\skip105
+\treewidthtwelve=\skip106
+\treewidththirteen=\skip107
+\treewidthfourteen=\skip108
+\treewidthfifteen=\skip109
+\treewidthsixteen=\skip110
+\treewidthseventeen=\skip111
+\treewidtheighteen=\skip112
+\treewidthnineteen=\skip113
+\treewidthtwenty=\skip114
+\daughteroffsetone=\skip115
+\daughteroffsettwo=\skip116
+\daughteroffsetthree=\skip117
+\daughteroffsetfour=\skip118
+\branchwidthone=\skip119
+\branchwidthtwo=\skip120
+\branchwidththree=\skip121
+\branchwidthfour=\skip122
+\parentoffset=\skip123
+\treeoffset=\skip124
+\daughteroffset=\skip125
+\branchwidth=\skip126
+\parentwidth=\skip127
+\treewidth=\skip128
+\qta=\toks28
+\qtb=\toks29
+\nbranches=\count273
+\qroofx=\count274
+\qroofy=\count275
+\@qrscratchbox=\box74
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks30
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count276
+\Hy@pagecounter=\count277
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count278
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count279
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen157
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count280
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count281
+\c@Item=\count282
+\c@Hfootnote=\count283
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count284
+\c@bookmark@seq@number=\count285
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ (/usr/local/texlive/2022/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip129
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 12.
+\c@task=\count286
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count287
+\l__pdf_internal_box=\box75
+) (./project.aux)
+\openout1 = `project.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen160
+\scratchbox=\box76
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen161
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks32
+)
+Package hyperref Info: Link coloring ON on input line 20.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count294
+)
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
+ (./project.out) (./project.out)
+\@outlinefile=\write3
+\openout3 = `project.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (4.84702pt too wide) in paragraph at lines 56--57
+[][]\OT1/cmr/bx/n/10 Task 1. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 reverseStack :: Stack a -> Stack a []\OT1/cmr/m/n/10 which takes a stack
+ []
+
+[2]
+Overfull \hbox (10.37392pt too wide) in paragraph at lines 107--108
+[][]\OT1/cmr/bx/n/10 Task 7. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 takeWhileStack :: (a -> Bool) -> Stack a -> Stack a
+ []
+
+
+Overfull \hbox (10.37392pt too wide) in paragraph at lines 118--119
+[][]\OT1/cmr/bx/n/10 Task 8. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 dropWhileStack :: (a -> Bool) -> Stack a -> Stack a
+ []
+
+
+Overfull \hbox (4.65228pt too wide) in paragraph at lines 129--130
+[][]\OT1/cmr/bx/n/10 Task 9. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 inStack :: Eq a => a -> Stack a -> Bool []\OT1/cmr/m/n/10 which checks
+ []
+
+
+Overfull \hbox (12.12419pt too wide) in paragraph at lines 138--139
+[][]\OT1/cmr/bx/n/10 Task 10. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 zipStack :: Stack a -> Stack b -> Stack (a,b) []\OT1/cmr/m/n/10 which
+ []
+
+[3]
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 153--153
+[]\OT1/cmtt/m/n/10 ghci> zipWithStack (+) (Empty :<: 3 :<: 2 :<: 1) (Empty :<: 2 :<: 1)[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 161--161
+[]\OT1/cmtt/m/n/10 data Tree a = Leaf a | Node a (Tree a) (Tree a) deriving (Eq, Show)[] 
+ []
+
+[4] [5] [6] [7]
+Overfull \hbox (2.90228pt too wide) in paragraph at lines 331--333
+[][]\OT1/cmr/bx/n/10 Task 26. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 addVector :: Vector -> Vector -> Vector []\OT1/cmr/m/n/10 which adds
+ []
+
+
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 337--337
+[]\OT1/cmtt/m/n/10 ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0, Complex 5.0 1.0][] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 337--337
+[]\OT1/cmtt/m/n/10 ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0][] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 346--346
+[]\OT1/cmtt/m/n/10 ghci> scaleVector (Complex 0.0 1.0) [Complex 1.0 3.0, Complex 2.0 4.0][] 
+ []
+
+[8] (./project.aux)
+Package rerunfilecheck Info: File `project.out' has not changed.
+(rerunfilecheck)             Checksum: 14A41A7B679D0C64EEBE933E48062869;870.
+ ) 
+Here is how much of TeX's memory you used:
+ 10076 strings out of 478268
+ 152744 string characters out of 5846348
+ 459571 words of memory out of 5000000
+ 28118 multiletter control sequences out of 15000+600000
+ 477636 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,8n,63p,844b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on project.pdf (8 pages, 162329 bytes).
+PDF statistics:
+ 174 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+

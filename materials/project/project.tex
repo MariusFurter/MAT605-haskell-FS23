@@ -1,0 +1,354 @@
+\documentclass{article}[12pt]
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{eucal}
+\usepackage{qtree}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = RoyalPurple,
+    urlcolor = YellowOrange
+}
+
+\theoremstyle{definition}
+\newtheorem{task}{Task}
+
+\title{MAT605 Project Questions}
+\author{Marius Furter}
+
+\begin{document}
+
+\maketitle
+
+\section{Instructions}
+The project consists of two parts, A and B. To pass the entire project you need to get 6 points.
+
+For part A, you will be randomly assigned 8 programming tasks. Some tasks may be harder than others, but this should average out over 8 assignments. Each task gives one point. Half points will be given for functions that work, but fail to satisfy the task completely.
+
+In part B, you will choose one of the guided topics. These will require more independent thought than the tasks in part A and give a total of 4 points. 
+
+Submit your code by July 1st (anywhere on earth) in a single file named \verb|LFH_firstname_lastname.hs| by email (marius.furter@math.uzh.ch). Please indicate the number of the task you are solving using comments and write type declarations for all your functions. For example,
+\begin{verbatim}
+    -- Task 0
+    zero :: Int
+    zero = 0
+\end{verbatim}
+Make sure that your file compiles! If there are functions that do not compile, but you would like to include for potential partial points, please comment them out and indicate what they should be doing.
+
+You may use all basic functions in the standard library. All task can be solved in under 6 lines using just pattern matching, guards, arithmetic, the max function, boolean functions, list comprehension, the cons operator \verb|:| and list concatenation. 
+
+Please do not use complex functions that perform a very similar task to the one you are trying to solve. For instance if you solve 4 tasks about stacks by converting the stack to a list, applying the corresponding list function, and then converting back, it will be hard for me to count that as 4 separate tasks. The guideline is that you should demonstrate your understanding of the task. If in doubt, ask me by email. I will not deduct points for this though. If it turns out to be an issue I would let you know after correcting and give you another chance to write more basic implementations.
+
+If you have questions about a task you may ask me by email, especially if you think there is a mistake. For the tasks of part A, I will also give you hints if you are struggling. 
+
+\section{Part A Tasks}
+
+\subsection{Stacks}
+The following code declares a data type called \emph{stacks} which are like list where we add new elements from the right.
+\begin{verbatim}
+    infixl 5 :<:
+    data Stack a = Empty | Stack a :<: a  deriving (Eq, Show)
+\end{verbatim}
+The first line declares a new left associative infix operator \verb|:<:| which we will use as a data constructor (infix data constructors must start with \verb|:|). An object of type \verb|Stack a| is either \verb|Empty| or some element of type \verb|a| appended to the right of an existing \verb|Stack a|. For instance, \verb|s = Empty :<: 3 :<: 2 :<: 1| is a \verb|Stack Int| where we first added \verb|3|, then \verb|2|, and finally \verb|1|. The left associativity of \verb|:<:| allows us to not write any brackets. Stacks can be pattern matched using the \verb|:<:| operator and \verb|Empty|. For instance, \verb|(Empty :<: x)| will match a one element stack, while \verb|(xs :<: x)| will match a stack with at least one element.
+
+\begin{task}
+    Implement \verb|reverseStack :: Stack a -> Stack a| which takes a stack and reverses the order of the elements it contains. For example, 
+    \begin{verbatim}
+ghci> reverseStack (Empty :<: 3 :<: 2 :<: 1)
+((Empty :<: 1) :<: 2) :<: 3\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|intersperseStack :: a -> Stack a -> Stack a| which takes an element of type \verb|a| and puts it between every two (non-empty) elements of the \verb|Stack a|. For example,
+    \begin{verbatim}
+ghci> intersperseStack 9 (Empty :<: 3 :<: 2 :<: 1)
+((((Empty :<: 3) :<: 9) :<: 2) :<: 9) :<: 1\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|subStacks :: Stack a -> [Stack a]| which lists all the sub-stacks of a \verb|Stack a|. For example,
+    \begin{verbatim}
+ghci> subStacks (Empty :<: 2 :<: 1)
+[Empty,Empty :<: 2,Empty :<: 1,(Empty :<: 2) :<: 1]\end{verbatim}
+    \emph{Hint: How you can you get the substacks of} \verb|(xs :<: x)| \emph{from those of} \verb|xs| \emph{?}
+\end{task}
+
+\begin{task}
+    Implement \verb|mapStack :: (a -> b) -> Stack a -> Stack b| which takes a function \verb|f :: a -> b| and applies it to each element in a \verb|Stack a| to produce a \verb|Stack b|. For example,
+    \begin{verbatim}
+ghci> mapStack (^2) (Empty :<: 3 :<: 2 :<: 1)
+((Empty :<: 9) :<: 4) :<: 1\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|takeStack :: Int -> Stack a -> Stack a| which takes the first \verb|n :: Int| elements from the right of a \verb|Stack a| and returns the corresponding stack. For example,
+    \begin{verbatim}
+ghci> takeStack 0 (Empty :<: 3 :<: 2 :<: 1)
+Empty     
+ghci> takeStack 2 (Empty :<: 3 :<: 2 :<: 1)
+(Empty :<: 2) :<: 1
+ghci> takeStack 20 (Empty :<: 3 :<: 2 :<: 1)
+((Empty :<: 3) :<: 2) :<: 1\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|dropStack :: Int -> Stack a -> Stack a| which drops the first \verb|n :: Int| elements from the right of a \verb|Stack a|. For example,
+    \begin{verbatim}
+ghci> dropStack 0 (Empty :<: 3 :<: 2 :<: 1)
+((Empty :<: 3) :<: 2) :<: 1
+ghci> dropStack 2 (Empty :<: 3 :<: 2 :<: 1)
+Empty :<: 3
+ghci> dropStack 20 (Empty :<: 3 :<: 2 :<: 1)
+Empty\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|takeWhileStack :: (a -> Bool) -> Stack a -> Stack a| which takes the longest right-prefix of the stack where all elements satisfy a condition \verb|p :: (a -> Bool)|.  For example,
+    \begin{verbatim}
+ghci> takeWhileStack (<1) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+Empty
+ghci> takeWhileStack (<3) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+(Empty :<: 2) :<: 1
+ghci> takeWhileStack (<4) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+(((Empty :<: 1) :<: 3) :<: 2) :<: 1\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|dropWhileStack :: (a -> Bool) -> Stack a -> Stack a| which drops the longest right-prefix of the stack where all elements satisfy a condition \verb|p :: (a -> Bool)|.  For example,
+    \begin{verbatim}
+ghci> dropWhileStack (<1) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+(((Empty :<: 1) :<: 3) :<: 2) :<: 1
+ghci> dropWhileStack (<3) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+(Empty :<: 1) :<: 3
+ghci> dropWhileStack (<4) (Empty :<: 1 :<: 3 :<: 2 :<: 1)
+Empty\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|inStack :: Eq a => a -> Stack a -> Bool| which checks if \verb|x :: a| is in a \verb|Stack a|. For example,
+    \begin{verbatim}
+ghci> inStack 3 (Empty :<: 3 :<: 2 :<: 1)
+True
+ghci> inStack 4 (Empty :<: 3 :<: 2 :<: 1)
+False\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|zipStack :: Stack a -> Stack b -> Stack (a,b)| which takes two stacks and zips them together from the right to a stack of pairs. The resulting stack should have the length of the shorter one of the two starting stacks. For example,
+    \begin{verbatim}
+ghci> zipStack (Empty :<: 3 :<: 2 :<: 1) (Empty :<: 'b' :<: 'a')
+(Empty :<: (2,'b')) :<: (1,'a')
+ghci> zipStack (Empty :<: 'b' :<: 'a') (Empty :<: 3 :<: 2 :<: 1)
+(Empty :<: ('b',2)) :<: ('a',1)\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \begin{verbatim}zipWithStack :: (a -> b -> c) -> Stack a -> Stack b -> Stack c \end{verbatim} 
+    which applies a function \verb| f :: a -> b -> c| across two stacks starting from the right. This process should stop when the shorter stack ends. For example,
+    \begin{verbatim}
+zipWithStack (*) (Empty :<: 2  :<: 1) (Empty :<: 3 :<: 2 :<: 1)
+(Empty :<: 4) :<: 1
+ghci> zipWithStack (+) (Empty :<: 3 :<: 2 :<: 1) (Empty :<: 2 :<: 1)
+(Empty :<: 4) :<: 2\end{verbatim}
+\end{task}
+
+
+\subsection{Binary Trees}
+The following code defines a data type for \emph{binary trees} that are labeled by elements of type \verb|a|:
+\begin{verbatim}
+data Tree a = Leaf a | Node a (Tree a) (Tree a) deriving (Eq, Show)
+\end{verbatim}
+An object of type \verb|Tree a| is either a labeled leaf \verb|Leaf a| or a labeled node \verb|Node a (Tree a) (Tree a)| that has two children of type \verb|Tree a|. For example,
+\begin{verbatim}
+Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3)
+\end{verbatim}
+is of type \verb|Tree Int| and expresses the tree
+$$\Tree [.1  [.2 4 5 ] 3 ] $$
+Trees can be pattern matched using the two constructors \verb|Leaf| and \verb|Node|. For instance, \verb|Leaf x| will match any tree consisting of a single leaf, while assigning its label to \verb|x|. Similarly \verb|Node x l r| will match any non-leaf tree and assign its label to \verb|x|, its left child tree to \verb|l| and its right child tree to \verb|r|.
+
+\begin{task}
+    Implement \verb|heightTree :: Tree a -> Int| which returns the height of a tree. The height is the longest path from the root of the tree to any leaf. For example,
+    \begin{verbatim}
+ghci> heightTree (Leaf 1)
+0
+ghci> heightTree (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+2 \end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|sizeTree :: Tree a -> Int| which counts the number of labels in a tree. This is the same as counting the number of leaves and nodes. For example,
+    \begin{verbatim}
+ghci> sizeTree (Leaf 1)
+1
+ghci> sizeTree (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+5\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|rootTree :: Tree a -> a| which returns the root of a tree. For example,
+    \begin{verbatim}
+ghci> rootTree (Leaf 1)
+1
+ghci> rootTree (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+1 \end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|leavesTree :: Tree a -> [a]| which returns the list of leaves of a tree. For example,
+    \begin{verbatim}
+ghci> leavesTree (Leaf 1)
+[1]
+ghci> leavesTree (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+[4,5,3]\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|mapTree :: (a -> b) -> Tree a -> Tree b| which applies a function \verb|f :: a -> b| to every label in a \verb|Tree a|. For example,
+    \begin{verbatim}
+ghci> mapTree (^2) (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+Node 1 (Node 4 (Leaf 16) (Leaf 25)) (Leaf 9)\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|pathsTree :: Tree a -> [[a]]| which returns the list of all paths from the root to a leaf in a \verb|Tree a|. For example,
+    \begin{verbatim}
+ghci> pathsTree (Leaf 1)
+[[1]]
+ghci> pathsTree (Node 1 (Node 2 (Leaf 4) (Leaf 5)) (Leaf 3))
+[[1,2,4],[1,2,5],[1,3]]\end{verbatim}
+\end{task}
+
+\subsection{Stocks}
+The following declare a data type for \emph{stocks} which tracks the relative movements of a stock across time:
+\begin{verbatim}
+    data Stock a = Start a | Up a (Stock a) | Down a (Stock a) 
+                   deriving (Eq, Show)
+\end{verbatim}
+A \verb|Stock a| is either a starting value \verb|Start a|, an uptick \verb|Up a (Stock a)| of an existing stock, or a downtick \verb|Down a (Stock a)| of an existing stock. For example,
+\begin{verbatim}
+    Down 5.6 (Up 2.1 (Start 6.7))
+\end{verbatim}
+is an object of type \verb|Stock Double| and represents a stock that started at a value of $6.7$, then went up by $2.1$, and finally went down by $5.6$. The current value of this stock would be $6.7 + 2.1 - 5.6 = 3.2$. 
+
+Stocks can be pattern matched by using the tree constructors \verb|Start|, \verb|Up| and \verb|Down|. For instance, \verb|Start x| matches a stock constisting only of a starting value which will be assigned to \verb|x|. On the other hand \verb|Up x s| matches a stock whose last movement was an uptick, while assigning \verb|x| to the value of the uptick and \verb|s| to the stock that represents all previous movements.
+
+\begin{task}
+    Implement \verb|upsStock :: Stock a -> Int| which counts the number of upticks in a stock. For example,
+    \begin{verbatim}
+ghci> upsStock (Down 5.6 (Up 2.1 (Start 6.7)))
+1\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|mapStock :: (a -> b) -> Stock a -> Stock b| which applies a function \verb|f :: a -> b| to every value in the stock. For example,
+    \begin{verbatim}
+ghci> mapStock (+1) (Down 5.6 (Up 2.1 (Start 6.7)))
+Down 6.6 (Up 3.1 (Start 7.7))\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|valStock :: Num a => Stock a -> a| which calculates the current value of a stock.  
+    For example,
+    \begin{verbatim}
+ghci> valStock (Down 5.6 (Up 2.1 (Start 6.7)) :: Stock Double)
+3.200000000000001\end{verbatim}
+    Note the imprecise floating point arithmetic.
+\end{task}
+
+\begin{task}
+    Implement \verb|listStock :: Num a => Stock a -> [a]| which list the movements of a stock with a sign.  
+    For example,
+    \begin{verbatim}
+ghci> listStock (Down 5.6 (Up 2.1 (Start 6.7)))
+[6.7,2.1,-5.6]\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|cumvalStock :: Num a => Stock a -> [a]| which returns a list of the cumulative values of a stock over time.  
+    For example,
+    \begin{verbatim}
+ghci> cumvalStock (Down 5.6 (Up 2.1 (Start 6.7)))
+[6.7,8.8,3.200000000000001]\end{verbatim}
+\end{task}
+
+\subsection{Free Groups}
+A free group on one generator $g$, consists of (possibly empty) strings of the symbols $g$ and $g^{-1}$. Elements can be multiplied by concatenating the corresponding strings: 
+$$g^{-1}g * gg^{-1} = g^{-1}ggg^{-1}$$
+The empty string $\_$ acts as a neutral element. 
+We declare equality of elements modulo the following reduction rules 
+$gg^{-1} = \_$, and $g^{-1}g = \_$.
+Inverses are then given by exchanging $g$ and $g^{-1}$ throughout a string. For instance 
+$$g^{-1}g * g^{-1}g = g^{1}g g^{-1}g = \_$$
+by two applications of the reduction rules.
+
+The following data type implements elements of a free group on one generator. 
+\begin{verbatim}
+data FreeGroup = Z | Pos FreeGroup | Neg FreeGroup deriving Show
+\end{verbatim}
+The constructor \verb|Z| represents the empty string, \verb|Pos| represents $g$, while \verb|Neg| represents $g^{-1}$. For instance, \verb|Neg (Pos Z)| represents $g^{-1}g$, so we add element to the string from the left.
+
+\begin{task}
+    Implement \verb|invFreeGroup :: FreeGroup -> FreeGroup| which inverts a free group element.
+    For example,
+    \begin{verbatim}
+ghci> invFreeGroup (Neg (Neg (Pos Z)))
+Pos (Pos (Neg Z))\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement 
+    \begin{verbatim}multFreeGroup :: FreeGroup -> FreeGroup -> FreeGroup \end{verbatim} 
+    which multiplies two free group elements by concatenation as described above.
+    For example,
+    \begin{verbatim}
+ghci> multFreeGroup (Neg (Pos Z)) (Pos (Neg Z))
+Neg (Pos (Pos (Neg Z)))
+ghci> multFreeGroup (Neg (Pos Z)) Z
+Neg (Pos Z)\end{verbatim}
+\end{task}
+
+\subsection{Complex Vectors}
+The following code implements vectors with complex number entries:
+\begin{verbatim}
+    data Complex = Complex Double Double    deriving Show
+    type Vector = [Complex] 
+\end{verbatim}
+The first line defines complex numbers as a pair of doubles, where the first component represents the real part, and the second the imaginary part. Complex vectors are then declared as a synonym for lists of complex numbers. For example,
+\begin{verbatim}
+    [Complex 1.0 3.0, Complex 2.0 4.0]\end{verbatim}
+represents the vector $\begin{pmatrix} 1+3i \\ 2 + 4i \end{pmatrix}$.
+
+\begin{task}
+    Implement \verb|normVector :: Vector -> Double| which calculates the usual norm of a complex vector.  
+    For example,
+    \begin{verbatim}
+ghci> normVector [Complex 1.0 3.0, Complex 2.0 4.0]
+5.477225575051661\end{verbatim}
+\end{task}
+
+\begin{task}
+    Implement \verb|addVector :: Vector -> Vector -> Vector| which adds two complex vectors together. Your function should return an error if the vectors are of unequal length.  
+    For example,
+    \begin{verbatim}
+ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0, Complex 5.0 1.0]
+[Complex 4.0 3.0,Complex 7.0 5.0]
+ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0]
+[Complex 4.0 3.0*** Exception: unequal lengths\end{verbatim}
+    \emph{Hint: Define complex addition in a where clause.}
+\end{task}
+
+\begin{task}
+    Implement \verb|scaleVector :: Complex -> Vector -> Vector| which scales a \verb|Vector| by a complex number.  
+    For example,
+    \begin{verbatim}
+ghci> scaleVector (Complex 0.0 1.0) [Complex 1.0 3.0, Complex 2.0 4.0]
+[Complex (-3.0) 1.0,Complex (-4.0) 2.0]\end{verbatim}
+    \emph{Hint: Define complex multiplication in a where clause.}
+\end{task}
+
+\section{Part B Topics}
+
+\emph{coming soon...}
+
+\end{document}
