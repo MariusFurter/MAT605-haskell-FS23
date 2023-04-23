@@ -278,9 +278,11 @@ $$g^{-1}g * gg^{-1} = g^{-1}ggg^{-1}$$
 The empty string $\_$ acts as a neutral element. 
 We declare equality of elements modulo the following reduction rules 
 $gg^{-1} = \_$, and $g^{-1}g = \_$.
-Inverses are then given by exchanging $g$ and $g^{-1}$ throughout a string. For instance 
-$$g^{-1}g * g^{-1}g = g^{1}g g^{-1}g = \_$$
-by two applications of the reduction rules.
+Inverses are given by reversing the string and exchanging $g$ and $g^{-1}$ throughout. For instance 
+$$(g^{-1}g g)^{-1} = g^{-1}g^{-1}g$$
+because
+$$g^{-1}g g * g^{-1}g^{-1}g = \_ \quad \text{and} \quad g^{-1}g^{-1}g*g^{-1}g g  = \_$$
+by three applications of the reduction rules.
 
 The following data type implements elements of a free group on one generator. 
 \begin{verbatim}
@@ -289,10 +291,10 @@ data FreeGroup = Z | Pos FreeGroup | Neg FreeGroup deriving Show
 The constructor \verb|Z| represents the empty string, \verb|Pos| represents $g$, while \verb|Neg| represents $g^{-1}$. For instance, \verb|Neg (Pos Z)| represents $g^{-1}g$, so we add element to the string from the left.
 
 \begin{task}
-    Implement \verb|invFreeGroup :: FreeGroup -> FreeGroup| which inverts a free group element.
+    Implement \verb|mirrorFreeGroup :: FreeGroup -> FreeGroup| which replaces every occurrence of \verb|Pos| with \verb|Neg| and conversely.
     For example,
     \begin{verbatim}
-ghci> invFreeGroup (Neg (Neg (Pos Z)))
+ghci> mirrorFreeGroup (Neg (Neg (Pos Z)))
 Pos (Pos (Neg Z))\end{verbatim}
 \end{task}
 

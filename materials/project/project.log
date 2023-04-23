@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  23 APR 2023 12:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  23 APR 2023 20:21
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -459,22 +459,22 @@ Overfull \hbox (6.74693pt too wide) in paragraph at lines 161--161
  []
 
 [4] [5] [6] [7]
-Overfull \hbox (2.90228pt too wide) in paragraph at lines 331--333
+Overfull \hbox (2.90228pt too wide) in paragraph at lines 333--335
 [][]\OT1/cmr/bx/n/10 Task 26. []\OT1/cmr/m/n/10 Im-ple-ment [][]\OT1/cmtt/m/n/10 addVector :: Vector -> Vector -> Vector []\OT1/cmr/m/n/10 which adds
  []
 
 
-Overfull \hbox (101.24611pt too wide) in paragraph at lines 337--337
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 339--339
 []\OT1/cmtt/m/n/10 ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0, Complex 5.0 1.0][] 
  []
 
 
-Overfull \hbox (11.99689pt too wide) in paragraph at lines 337--337
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 339--339
 []\OT1/cmtt/m/n/10 ghci> addVector [Complex 1.0 3.0, Complex 2.0 4.0] [Complex 3.0 0.0][] 
  []
 
 
-Overfull \hbox (22.4968pt too wide) in paragraph at lines 346--346
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 348--348
 []\OT1/cmtt/m/n/10 ghci> scaleVector (Complex 0.0 1.0) [Complex 1.0 3.0, Complex 2.0 4.0][] 
  []
 
@@ -491,7 +491,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  60i,8n,63p,844b,540s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on project.pdf (8 pages, 162329 bytes).
+Output written on project.pdf (8 pages, 162502 bytes).
 PDF statistics:
  174 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams
