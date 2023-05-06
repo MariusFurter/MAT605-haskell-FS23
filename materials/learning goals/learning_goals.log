@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  29 APR 2023 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.4)  6 MAY 2023 14:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -699,11 +699,15 @@ Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 164.
  [5]
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2038>
-Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 172.
+Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 171.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2377>
-Package pdftex.def Info: all-twemojis.pdf , page2377 used on input line 177.
+Package pdftex.def Info: all-twemojis.pdf , page2377 used on input line 176.
+(pdftex.def)             Requested size: 10.0pt x 10.00002pt.
+File: all-twemojis.pdf Graphic file (type pdf)
+<use all-twemojis.pdf, page 2038>
+Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 181.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2038>
@@ -711,25 +715,29 @@ Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 182.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
 File: all-twemojis.pdf Graphic file (type pdf)
 <use all-twemojis.pdf, page 2038>
-Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 183.
+Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 189.
+(pdftex.def)             Requested size: 10.0pt x 10.00002pt.
+File: all-twemojis.pdf Graphic file (type pdf)
+<use all-twemojis.pdf, page 2038>
+Package pdftex.def Info: all-twemojis.pdf , page2038 used on input line 194.
 (pdftex.def)             Requested size: 10.0pt x 10.00002pt.
  [6] [7] [8] (./learning_goals.aux)
 Package rerunfilecheck Info: File `learning_goals.out' has not changed.
 (rerunfilecheck)             Checksum: 8826E0E826D1A4EDDE09CE399B6A159F;754.
  ) 
 Here is how much of TeX's memory you used:
- 28535 strings out of 478268
- 603356 string characters out of 5846348
+ 28538 strings out of 478268
+ 603389 string characters out of 5846348
  943043 words of memory out of 5000000
  46361 multiletter control sequences out of 15000+600000
  477972 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,7n,118p,950b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on learning_goals.pdf (8 pages, 176481 bytes).
+Output written on learning_goals.pdf (8 pages, 177164 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 139 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 180 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
