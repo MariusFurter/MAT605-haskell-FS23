@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1682274116 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex" "project.pdf" "project" 1682274117
-  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex" 1682274116 16811 396cd71d565f34e121feaa042fc2cc8f ""
+["pdflatex"] 1683377594 "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex" "project.pdf" "project" 1683377594
+  "/Users/marius/Documents/repos/MAT605-haskell-FS23/materials/project/project.tex" 1683377594 16795 3ddf46895fc509373ec50755b110cfd5 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -96,9 +96,9 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1651648963 2826439 3c37574d18a64bc92e25c4c639db90b7 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "project.aux" 1682274117 1599 e3bf101adf674274801a21557dd9e5af "pdflatex"
-  "project.out" 1682274117 870 14a41a7b679d0c64eebe933e48062869 "pdflatex"
-  "project.tex" 1682274116 16811 396cd71d565f34e121feaa042fc2cc8f ""
+  "project.aux" 1683377594 1599 e3bf101adf674274801a21557dd9e5af "pdflatex"
+  "project.out" 1683377594 870 14a41a7b679d0c64eebe933e48062869 "pdflatex"
+  "project.tex" 1683377594 16795 3ddf46895fc509373ec50755b110cfd5 ""
   (generated)
   "project.aux"
   "project.log"
