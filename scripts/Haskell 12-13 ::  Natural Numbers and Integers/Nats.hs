@@ -17,31 +17,34 @@ instance Ord Nat where
 instance Enum Nat where
     succ = S
     pred Z = Z
-    pred (S n) = n
+    pred (S n) = n 
     toEnum 0 = Z
-    toEnum i | i > 0 = S (toEnum (i-1))
-             | otherwise = Z
+    toEnum i | i < 0 = Z
+             | otherwise = S ( toEnum (i-1) )
     fromEnum Z = 0
     fromEnum (S n) = fromEnum n + 1
 
 instance Num Nat where
-    (+) = foldn succ
-    (*) n m = foldn (+m) Z n 
-    (-) = foldn pred
-    abs = id
-    signum Z = 0
-    signum n = S Z
+    (+) = foldn S 
+    (*) n = foldn (+n) Z
+    (-) = foldn pred 
+    abs = id 
+    signum Z = Z 
+    signum n = (S Z)
     fromInteger 0 = Z
-    fromInteger i | i > 0 = S (fromInteger (i-1))
-                  | otherwise = Z
-     
+    fromInteger i | i < 0 = Z
+                  | otherwise = S ( fromInteger (i-1) )
+
 instance Real Nat where
-    toRational n = (toInteger n) % 1
+    toRational n = toInteger n % 1
 
 instance Integral Nat where
-    quotRem n d | d == 0 = error "division by zero"
-                | d > n = (Z, n)
-                | otherwise = (S q, r) where
-                    (q, r) = quotRem (n-d) d
-    toInteger :: Nat -> Integer
     toInteger = foldn (+1) 0
+    quotRem n d | d > n = (Z, n)
+                | otherwise = (S q, r) where
+                    (q,r) = quotRem (n-d) d
+
+
+
+
+
