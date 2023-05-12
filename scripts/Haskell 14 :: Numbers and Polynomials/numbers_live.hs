@@ -1,7 +1,7 @@
 import Data.Ratio
 import Data.Complex
 
--- cabal install poly
+-- "cabal install --lib poly"
 import Data.Poly
 
 newton :: (Rational -> Rational) -> (Rational -> Rational) 
