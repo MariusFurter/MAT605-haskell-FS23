@@ -5,7 +5,7 @@ import Data.Poly
 f x = (x^2 - 2)
 f' x = 2*x 
 
--- Newton method: x1 = x0 - ( f x / f' x )
+-- Newton method: x1 = x0 - ( f x0 / f' x0 )
 newton :: (Rational -> Rational) -> (Rational -> Rational) -> 
             Rational -> Int -> Rational
 newton f f' x0 0 = x0
