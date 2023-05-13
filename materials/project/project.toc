@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Instructions}{1}{section.1}%
+\contentsline {section}{\numberline {2}Part A Tasks}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Stacks}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Binary Trees}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Stocks}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Free Groups}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Complex Vectors}{8}{subsection.2.5}%
+\contentsline {section}{\numberline {3}Part B Topics}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Logic}{9}{subsection.3.1}%
+\contentsline {paragraph}{Background}{9}{section*.2}%
+\contentsline {paragraph}{Task}{10}{section*.3}%
+\contentsline {subsection}{\numberline {3.2}Algebra}{11}{subsection.3.2}%
+\contentsline {paragraph}{Background}{11}{section*.4}%
+\contentsline {paragraph}{Task}{11}{section*.5}%
+\contentsline {subsection}{\numberline {3.3}Graph Theory}{12}{subsection.3.3}%
+\contentsline {paragraph}{Background}{12}{section*.6}%
+\contentsline {paragraph}{Task}{13}{section*.7}%
