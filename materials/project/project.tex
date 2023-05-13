@@ -237,7 +237,7 @@ A \verb|Stock a| is either a starting value \verb|Start a|, an uptick \verb|Up a
 \end{verbatim}
 is an object of type \verb|Stock Double| and represents a stock that started at a value of $6.7$, then went up by $2.1$, and finally went down by $5.6$. The current value of this stock would be $6.7 + 2.1 - 5.6 = 3.2$. 
 
-Stocks can be pattern matched by using the tree constructors \verb|Start|, \verb|Up| and \verb|Down|. For instance, \verb|Start x| matches a stock constisting only of a starting value which will be assigned to \verb|x|. On the other hand \verb|Up x s| matches a stock whose last movement was an uptick, while assigning \verb|x| to the value of the uptick and \verb|s| to the stock that represents all previous movements.
+Stocks can be pattern matched by using the three constructors \verb|Start|, \verb|Up| and \verb|Down|. For instance, \verb|Start x| matches a stock constisting only of a starting value which will be assigned to \verb|x|. On the other hand \verb|Up x s| matches a stock whose last movement was an uptick, while assigning \verb|x| to the value of the uptick and \verb|s| to the stock that represents all previous movements.
 
 \begin{task}
     Implement \verb|upsStock :: Stock a -> Int| which counts the number of upticks in a stock. For example,
