@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.13)  13 MAY 2023 18:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.13)  15 MAY 2023 09:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -681,13 +681,13 @@ Overfull \hbox (22.4968pt too wide) in paragraph at lines 354--354
 []\OT1/cmtt/m/n/10 ghci> scaleVector (Complex 0.0 1.0) [Complex 1.0 3.0, Complex 2.0 4.0][] 
  []
 
-[8] [9] [10]
-Overfull \hbox (10.77635pt too wide) in paragraph at lines 437--438
+[8] [9] [10] [11]
+Overfull \hbox (10.77635pt too wide) in paragraph at lines 439--440
 []\OT1/cmr/m/n/10 a func-tion [][]\OT1/cmtt/m/n/10 equivFree :: Free a -> Free a -> Bool []\OT1/cmr/m/n/10 that re-turns whether
  []
 
-[11] [12]
-Overfull \hbox (3.27643pt too wide) in paragraph at lines 477--478
+[12]
+Overfull \hbox (3.27643pt too wide) in paragraph at lines 479--480
 []\OT1/cmr/m/n/10 a func-tion [][]\OT1/cmtt/m/n/10 isPath :: a -> a -> Graph a -> Bool []\OT1/cmr/m/n/10 which re-turn whether
  []
 
@@ -704,7 +704,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,9n,93p,850b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on project.pdf (13 pages, 233655 bytes).
+Output written on project.pdf (13 pages, 234208 bytes).
 PDF statistics:
  298 PDF objects out of 1000 (max. 8388607)
  246 compressed objects within 3 object streams
